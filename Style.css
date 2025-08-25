@@ -1,0 +1,76 @@
+*,
+  .nav-link.active {
+    text-decoration:none;
+  }
+  .nav-link:hover {
+    text-decoration: none;
+  }
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background: rgb(255, 255, 255);
+  transition: width 1s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+  margin-top: 3px;
+}
+.card-img-fixed {
+  width: 120px;     
+  height: 200px;     
+  object-fit: cover;
+}
+.cerita {
+  font-family: Arial, sans-serif;  /* font Arial */
+  font-size: 12pt;                /* ukuran 12pt */
+  text-align: justify;            /* rata kanan kiri */
+  line-height: 1.0;               /* spasi 1.5 */
+  margin-bottom: 1.5em;           /* jarak antar paragraf */
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* transparan hitam */
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 14px; /* agak kecil di HP */
+}
+footer {
+  margin: 0 !important;
+  padding: 20px 0 !important;
+  width: 100vw;        /* full layar */
+  position: relative;
+}
+
+  .carousel-img {
+    height: 500px;          /* Tinggi tetap */
+    object-fit: cover;      /* Biar gambar penuh tanpa gepeng */
+  }
+
+  @media (max-width: 768px) {
+    .carousel-img {
+      height: 300px;        /* Lebih pendek kalau di HP */
+    }
+  }

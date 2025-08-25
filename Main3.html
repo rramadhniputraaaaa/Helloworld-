@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- CSS Gawe Dewe -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body Class="bg-black text-light">
+    <div>
+    <!-- Ini Navbar -->
+    <nav class="navbar navbar-underline-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">rama.txt</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="HI.html">Hello, World!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSf9shMJrg2uqr4C9ISfzMom250SG41nLijcDUvLReWkBtpEIw/viewform?usp=dialog#">Misuh</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"
+                href="https://maps.app.goo.gl/MPfUVxhqPtavPwuD7#">Madang</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Ini Navbar End -->
+    <!-- Ini Adalah Tulisan Pertama -->
+    <div class="card bg-black text-light">
+        <h5 class="card-header bg-black text-light">What brings you here?</h5>
+        <div class="card-body">
+            <img src="Mad.jpg" class="w-100" alt="..." style="height:auto;">
+            <p class="card-text">Whatever you find out after this, and however you feel about it, that's on you .not me.<br><br>Nomor kamar di Berbah Kalitirto, ada di gdrive PIAT
+            </p>
+            <div class="input-group">
+                <span class="input-group-text" id="visible-addon">X</span>
+                <input type="text" id="nomorInput" class="form-control" placeholder="Input Number" aria-label="Input Number"
+                    aria-describedby="visible-addon">
+            </div>
+            <br>
+            <button onclick="checkNOMOR()" class="btn btn-primary">The Truth</button>
+
+        </div>
+    </div>
+    <!-- Ini Adalah Tulisan Pertama End  -->
+    </div>
+
+    <!-- Javascript Bundle With Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+     <script>
+        function checkNOMOR() {
+            const input = document.getElementById("nomorInput").value;
+            if (input === "32") {
+                window.location.href = "Main.html"; // kalau benar, pindah halaman
+            } else {
+                alert("salah cuy mending skip YTTA soalnya");
+            }
+        }
+    </script>
+</body>
+
+</html>

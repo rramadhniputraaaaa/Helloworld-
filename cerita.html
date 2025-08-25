@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- CSS Gawe Dewe -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Tambahin style di sini -->
+    <style>
+        .card-body blockquote {
+            font-family: Arial, sans-serif;
+            /* font Arial */
+            font-size: 12pt;
+            /* ukuran 12pt */
+            text-align: justify;
+            /* rata kanan kiri */
+            line-height: 1.5;
+            /* spasi 1.5 */
+        }
+
+        .card-body blockquote p {
+            margin-bottom: 1.5em;
+            /* jarak antar paragraf */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- Ini Navbar -->
+        <nav class="navbar navbar-underline-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">rama.txt</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="HI.html">Hello, World!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSf9shMJrg2uqr4C9ISfzMom250SG41nLijcDUvLReWkBtpEIw/viewform?usp=dialog##">Misuh</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://maps.app.goo.gl/MPfUVxhqPtavPwuD7#">Madang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="https://www.imdb.com/video/vi2053751833/?playlistId=tt15398776&ref_=ext_shr_lnk#">Movie</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Recommended 4u
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="https://youtu.be/-41H8ah6QpM?si=CTpsSBXm-GEkYgGJ#">Satu</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://youtu.be/Z0_CaCeDmo4?si=mG-zx9n6REYXNyTI#">Dua</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://youtu.be/OzzxXUkzIGc?si=ofoZWIXyEhxJYQk8#">Tiga</a></li>
+                                <li><a class="dropdown-item"
+                                        href="https://link.springer.com/chapter/10.1007/3-540-29803-7_3#">Empat</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Ini Navbar End -->
+
+        <!-- Ini Adalah Tulisan Pertama -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+            data-bs-wrap="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pat.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Selamat Datang di Website Pertama Saya</h5>
+                        <p>Belajar bikin website pakai HTML & CSS. <br> Maap yak kalo UI nya norak UX nya ribet. Masih
+                            belajar soalnya. Hehehehe</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Masddeafix.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Mulai Belajar darimana?</h5>
+                        <p>Ane Banyak Belajar dari belio, Software yang dipake sih baru Visual Code aja</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="jar 2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h5>Sama GPT</h5>
+                        <p>Kalo lagi Mentok sih biasanya tanya GPT.Promptnya kurang lebih kaya digambar.<br> Bentar ini,
+                            itunya lagi diginiin</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Cerita Fiksi
+            </div>
+            <div class="card-body">
+                <figure>
+                    <blockquote class="blockquote">
+                        <p>Halo, perkenalkan nama saya Rama Saya adalah salah satu mahasiswa yang sehari harinya harus
+                            menempuh 60km jauh jaraknya untuk bisa pulang pergi kekampus. Puisi ini merupakan puisi
+                            buatan saya yang kesekian kalinya dan saya buat tepat di usia saya yang memasuki kepala dua.
+                            Puisi ini bertemakan pencarian dalam jejak waktu yang menceritakan tokoh fiksi bernama
+                            Andri. Ia adalah salah seorang mahasiswa aktif kampus Cokelat. Jurusan yang Andri tekuni
+                            saat ini ialah S1 Ilmu Hewan Ruminansia. Latar belakang dan tokoh dalam puisi diambil dari
+                            apa yang Andri lewati untuk masuk kesalah satu jurusan impian yang tidak berakhir sebagai
+                            asa, akan tetapi sebagai angan. Saya ucapkan terimakasih kepada The Jansen telah memberikan
+                            banyak inspirasi untuk menulis puisi ini.
+                            <br>“Sang pengelana waktu dengan bis kota”. Kisah Andri bermula Pada bait pertama
+                            ,menceritakan
+                            tentang perjalanan Andri seorang diri sebagai pengelana waktu menyebrangi selat sunda ketika
+                            hendak ke pulau Jawa dari pulau Sumatra dengan menggunakan bis serta kapal fery. Dalam
+                            perjalanan ini ia dihadapkan oleh berbagai keraguan yang ada di benaknya tentang apa yang
+                            sudah terjadi. Kilas balik sebelum kepulangan Andri ke Jawa dari Sumatra. Andri merupakan
+                            seorang mahasiswa aktif di salah satu kampus yang ada di pulau Sumatra sebut saja Forest
+                            campus. Pada tahun kelulusan yang pertama dari SMA ia memutuskan untuk mendaftar SIPENMARU
+                            dengan pilihan pertama yakni jurusan Ilmu Bangunan di kampus Cokelat dan jurusan ilmu
+                            bangunan di Forest campus. Hasil SIPENMARU pun sudah keluar dan Andri diterima di Forest
+                            campus. Mengetahui hal tersebut ia menerima dengan berat hati untuk merelakan satu tahun
+                            pertamanya di kampus yang bukan impiannya. Fikirnya pada waktu itu adalah untuk mengambil
+                            pengalaman di jurusan Ilmu Bangunan yang ada di Forest campus tersebut. kemudian ia akan
+                            mendaftar lagi pada tahun berikutnya untuk mengikuti SIPENMARU-nya yang ke-2. Singkat
+                            cerita, hari pendaftaran SIPENMARU yang ke-2 pun dimulai. Pada saat sesi pemilihan jurusan,
+                            terbesit di fikiran Andri untuk memilih jurusan Ilmu Hewan Ruminansia di kampus cokelat pada
+                            pilihan kedua sebagai “jaga-jaga” jika tidak lolos jurusan pertama yang masih tetap sama
+                            yakni ilmu bangunan. Pada saat itu ia beranggapan jika Ilmu Hewan Ruminansia adalah jurusan
+                            yang tidak begitu kompleks dan kuliahnya ‘gampang’, fikir Andri pada waktu itu. Hari
+                            pengumuman pun tiba, lagi dan lagi Andri harus menerima kenyataan bahwasannya ia memang
+                            diterima di kampus Cokelat, akan tetapi dijurusan yang ia anggap sebagai jurusan
+                            “jaga-jaga”. Setelah mendapati jika dirinya lulus SIPENMARU pada pilihan kedua dan pada saat
+                            itu juga bertepatan dengan libur semester genap Forest campus. Andri memutuskan untuk
+                            Kembali ke Jawa dengan menaiki bis. Sepanjang perjalanan menuju Jawa, Andri merenungi apa
+                            yang ia akan lewati kedepannya. “Membawa Kumpulan ragu dalam fikirnya” ini adalah kalimat
+                            yang menggambarkan kondisi Andri saat duduk menatap pemandangan dari jendela bis. Begitu
+                            banyak skenario yang ada dalam otaknya mengenai lolosnya ia di pilihan kedua dari program
+                            studi yang telah dipilihnya, Andri dihadapkan oleh pilihan antara berkuliah di jurusan
+                            Impian atau berkuliah di kampus Impian namun dengan jurusan yang ia anggap sebagai jurusan
+                            ‘jaga-jaga’. Ucap Andri dalam hati “Kayaknya worth it sih gw ambil Ilmu Hewan Ruminansia di
+                            kampus Cokelat ini, toh juga sudah diterima kampus yang gw mau. Terus gw juga bisa nyicil
+                            mata kuliah umum yang nantinya bisa gw konversi kalau udah keterima di jurusan Ilmu bangunan
+                            lagian kan tahun depan masih bisa ikut SIPENMARU yang terakhir”. Dengan yakin Andri bertekad
+                            untuk meninggalkan jurusan Impiannya di Forest campus dan memilih kampus Cokelat sebagai
+                            tempat ‘transit’ jurusan. Selain itu terdapat beberapa alasan lain yang menguatkan Andri
+                            untuk meninggalkan Forest campus.
+                            <br> “Siap bertaruh dengan rencananya” Hari pertama masa pengenalan kampus pun telah
+                            dimulai.
+                            Andri sangat senang dengan hari pertamamya dikampus Cokelat. Ospek kampus Cokelat memang
+                            rasanya nikmat sekali, jauh dari kata perpeloncoan sampai sampai sepekan berlalu tanpa rasa
+                            lelah dan hambatan sedikitpun. Saat hari terakhir ospek Andri menyadari bahwa ia masih
+                            berada di jurusan yang bukan ia impikan. Setelah masa pengenalan lingkungan kampus usai dan
+                            perkuliahan dijurusan pun dimulai. Diluar dari dugaan andri jurusan Ilmu Hewan Ruminansia
+                            ternyata tidak sesedarhana yang ia fikirkan jauh hari sebelumnya. Setiap hari tugas selalu
+                            berdatangan dibarengi dengan laporan praktikum yang tidak masuk akal jumlahnya. Terdapat
+                            masa dimana Andri harus membuat dan merevisi delapan buah proposal serta empat laporan
+                            praktikum yang masing masing laporan memiliki rata rata jumlah halaman sebanyak limabelas
+                            lembar, dan itu semua harus diselesaikannya dalam kurun waktu tiga hari. Jika kalian
+                            berfikir ini sudah mencakup semua matakuliah yang ada, maka kalian keliru, karena kegilaan
+                            ini baru dari satu mata kuliah saja belum dari paktikum matakuliah yang lain. Menyadari
+                            bahwa anggapanya keliru tentang Ilmu Hewan Ruminansia sebagai jurusan yang “gampang”. Andri
+                            mulai terbayang akan rencananya untuk mendaftar SIPENMARU yang ke-3 kalinya sekaligus
+                            SIPENMARU-nya yang terakhir.
+                            <br>“Rima sumbang itu kembali bersua” Mendapati fakta jika Ilmu Hewan Ruminansia tidak
+                            sesederhana yang Andri fikir, ia mulai menyusun strategi belajar yang efektif agar
+                            rencananya dapat berjalan mulus. Andri mulai menutup lingkar pertemanannya dan menolak untuk
+                            mengikuti berbagai kegiatan atau organisasi kampus. Alasannya adalah ia takut tidak memiliki
+                            waktu belajar SIPENMARU yang cukup karena teralihkan oleh kegiatan kampus atau ajakan
+                            berpergian dari teman. Sikap ekstrovert (Mudah bergaul) Andri berubah menjadi seorang nerd
+                            nolep namun ia tidak berkcamata. Oleh karenanya, teman yang Andri miliki dapat dihitung
+                            jari. Selain hubungan sosialnya yang berjalan tidak baik, akademik Andri pada beberapa
+                            matakuliah Ilmu Hewan Ruminansia juga tidak terlalu baik karena ia yang sedikit
+                            menyepelekan. “Prioritas utama adalah lolos SIPENMARU Ilmu Bangunan, gak papalah nilai
+                            akademik gw gak terlalu bagus di Farum (Fakultas Ruminansia). Toh juga tahun depan kayaknya
+                            gw udah ga disini lagi”. Kurang lebih itulah yang ada difikirnya. Waktu telah berlalu hingga
+                            hari ujian SIPENMARU pun tiba dengan segala persiapan yang telah Andri siapkan sebelumnya.
+                            Ini adalah kali ke-3 ia mengikuti SIPENMARU sekaligus kesempatan terakhir untuk mengejar
+                            jurusan impiannya. Hari pengumuman tiba. Tentu saja, ini adalah hari penentuan bagi Andri.
+                            Apakah ia akan tetap berada di Ilmu Hewan Ruminansia dengan segala kekacauan yang ia buat
+                            atau ia akan berhasil ‘transit’ dari Ilmu Hewan Ruminansia. Saat membuka pengumuman Andri
+                            mendapati kenyataan bahwa jurusan yang sudah ia impikan sejak lama berubah menjadi sebuah
+                            angan yang harus ia relakan. Berat baginya untuk menerima dan mengikhlaskan apa yang sudah
+                            terjadi serta ia korbankan. Sebenarnya terdapat banyak sekali lika liku cerita selama
+                            menjalani semester 1 dan 2 di Farum ini yang menjadikan faktor lain mengapa ia gagal. Namun
+                            rasanya sudah terlalu panjang untuk menuliskannya. Malam hari setelah membuka pengumuman,
+                            Andri menangisi nasibnya dan sadar bahwa ia kalah dalam pertaruhan yang ia buat sendiri
+                            lagi, lagi dan lagi.
+                            <br>“Kini biramanya tidak lagi tertata” Beberapa pekan beranjak pergi meninggalkan hari
+                            pengumuman kelabu. Tak terasa semester gasal telah dimulai. Di beberapa awal pekan semester
+                            gasal begitu berat rasanya untuk Andri jalani di Farum. Saat jam perkuliaahan selesai ia
+                            seorang diri selalu pergi ke perpustakaan untuk mengalihkan kesedihan serta rasa hampa yang
+                            ia rasakan. Andri berusaha untuk move on dari apa yang sudah terjadi. Ia masih tak bisa
+                            menerima kenyataan jika dirinya harus tetap kalah dari tiga kali pertaruhan yang ia buat.
+                            Pergi ke perpustakaan tidak lah cukup mengobati perasaan Andri. Setiap pekannya satu atau 3
+                            hari Andri selalu telat untuk masuk kelas. Jam tidurnya menjadi berantakan, dalam beberapa
+                            pekan ia selalu bangun melewati arunika, jelas sekali bahwa Andri juga lalai dalam
+                            beribadah. Terkadang ia selalu berandai-andai. Mengarang sebuah skenario, menempatkan
+                            dirinya di sebuah dunia pararel lain membayangkan kehidupannya sebagai mahasiswa Ilmu
+                            Bangunan yang sudah pasti sangat bahagia dan berjalan dengan mulus. Sampai pada akhirnya ia
+                            kembali memainkan gim kesukaannya yakni Legenda Seluler setelah satu tahun tidak bermain.
+                            Bak gelas pecah yang dilempar Legenda Seluler dijdaikan oleh andri sebagai bahan unuk
+                            melampiaskan apa yang sedang ia rasa. Legenda Seluler menjadi pelampiasan yang dapat
+                            mengalihkan rasa hampa yang ia alami walau hanya sesaat. Hampir setiap waktu senggang yang
+                            Andri miliki ia selalu push rank gim kesukaannya itu. Seperti berada dalam lingkaran setan,
+                            hidup Andri hanya diisi oleh bermain gim setiap harinya. Pertanggungjawaban terhadap
+                            akademik diacuhkannya begitu saja. kendati demikan Andri merupakan pemain gim yang cukup
+                            andal, ia mampu menembus top leaderboard provinsi dari beberapa hero yang ada di Legenda
+                            Seluler. Andri adalah seorang penjelajah hutan yang andal HAHAHA. Scrolling sosial media
+                            berjam-jam tak luput dari rutinitas wajib baginya. Dengan melakukannya ia mampu memenuhi
+                            serta memuaskan dopamine sesaatnya. Sudahlah dia membuang masa dan cita-citanya, ia juga
+                            melalaikan ibadahnya. Begitulah kurang lebih biramanya yang kacau.
+                            <br>“Terlekat topeng sukaria menutupi rupa” Semua rutinitas yang Andri jalani tersebut
+                            adalah kepalsuan sesaat untuk sedikitnya mengalihkan rasa hampa yang ia miliki. Dihadapan
+                            teman dekatnya, Andri selalu berusaha tampil seperti biasa dengan pribadi yang suka membuat
+                            candaan yang setidaknya tidak recehan bagi circle-nya. Dalam circle, ia dikenal sebagai
+                            pribadi yang riang. Teman dekatanya dapat menghargai Andri karena sikapnya yang cukup loyal
+                            dan setiakawan serta “rasanya kalau tidak ada Andri, maka tongkrongan seperti sayur asam
+                            tidak pakai sambal terasi dan ikan teri, HAHAHA” ucap salah seorang teman Andri. Setidaknya
+                            ia masih memiki teman kelas untuk ditanyai mengenai jadwal kuliah, tugas dan lain-lainnya.
+                            Andri yang tidak baik-baik saja ini selalu tampil baik-baik saja dihadapan semua orang, ini
+                            adalah kalimat yang pas untuk menggambarkan bagaimana Andri bersikap.
+                            <br> “Nafsinya nista bersuaka lara” Selain cita-cita ternyata lambat laun citra Andri juga
+                            kian memudar, sering sekali ia melihat tatapan sinis meremehkan dari beberapa mata yang
+                            pernah ditatapnya. Terdengar sayup sayup suara ke telinganya tentang betapa buruk manajemen
+                            waktu yang andri miliki serta hidupnya yang berantakan itu. Lagi-lagi itu memang benar
+                            adanya. Selain itu tak luput bagi Andri untuk menerima caci dan makian dari ‘mereka’. Tak
+                            lain itu semua berasal dari egosentrisme yang ia miliki karena sikapnya yang terkadang
+                            mementingkan diri sendiri secara berlebihan tanpa mempedulikan orang lain. Nista lah sudah
+                            nafsinya dimata mereka, berlindunglah Andri dalam lara. Sebenarnya ada berapa kepribadian
+                            yang ia miliki?
+                            <br>“Jiwanya sesak akan cela” Tenggelam terekam mengejar hal yang tak terkejar adalah
+                            beberapa bait lirik yang ada dalam lagu The Jansen berjudul Tipu Daya Sejarah. Bait lirik
+                            tersebut nampaknya tak terlalu klise bagi jiwa Andri yang sudah tenggelam begitu dalam
+                            setelah mengejar hal yang tak bisa ia kejar dan itu semua terekam oleh masa. Sesak akibat
+                            dosa dosa masa lalunya kembali diingatnya. Masa ke masa semua cela memenuhi jiwa hampa
+                            seorang Andri, penyesalan demi penyesalan mengisi ruang dalam jiwa yang sudah sesak oleh
+                            cela. Andri sudah tak kuasa lagi namun agama melarangnya untuk ia berputus asa.
+                            <br>“Masihkah ada ampunan baginya” Kalimat pertanyaan ini merupakan akhir dari lika liku
+                            cerita yang Andri alami. Kalimat pertanyaan ditujukan kepada para pembaca, sebagai bentuk
+                            keputus asaan seroang Andri ditengah lara yang dirasa saat memasuki masa dewasanya. Dalam
+                            pencarian ditengah lara yang ia alami, hal apa yang sekiranya dapat Andri upayakan untuk
+                            bersemangat lagi dalam hidupnya?
+                        </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        masih cupu kak, makanya layoutnya boring wkwkwkw <cite title="Source Title">Ini Ceritanya Si Andri</cite>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <!-- Ini Adalah Tulisan Pertama End  -->
+    </div>
+     <!-- ================= Footer ================= -->
+  <footer class="bg-dark text-light text-center py-4 mt-4 w-100">
+    <div class="container">
+      <h5>What Is It That You Do?</h5>
+      <p>Oh I do bad things but you already know that.</p>
+      <p class="mt-3 mb-0"> @rramadhniputraa | Last Update On August 23 <br> © 2025</p>
+    </div>
+  </footer>
+  <!-- ================= Footer End ================= -->
+
+
+    <!-- Javascript Bundle With Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
